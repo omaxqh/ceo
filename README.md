@@ -26,7 +26,25 @@
 
 ## 安装
 
-### IDE Skill
+### 通过 ali-skills CLI 安装（推荐）
+
+```bash
+# 列出可用 skill
+npx ali-skills add <group>/ceo-skill --list
+
+# 安装到当前项目（自动检测已安装的 AI Agent）
+npx ali-skills add <group>/ceo-skill
+
+# 安装到指定 Agent
+npx ali-skills add <group>/ceo-skill --skill ceo -a qoder
+npx ali-skills add <group>/ceo-skill --skill ceo -a claude-code
+npx ali-skills add <group>/ceo-skill --skill ceo -a cursor
+
+# 全局安装（所有项目通用）
+npx ali-skills add <group>/ceo-skill --skill ceo -g
+```
+
+### IDE Skill（手动）
 
 | 平台 | 安装方式 | 只需 SKILL.md？ |
 |------|----------|----------------|

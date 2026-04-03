@@ -1,19 +1,11 @@
 ---
 name: ceo
 version: 2.0.0
-description: |
-  商业想法 Review。从商业、竞对、用户、产品、运营、体验等角度审查商业想法并激发更多可能性。
-  四种模式：SCOPE EXPANSION（梦想大一点）、SELECTIVE EXPANSION（保持范围+挑选扩展）、
-  HOLD SCOPE（最大严谨）、SCOPE REDUCTION（精简到本质）。
-  适用场景：把外部 GPT 发散讨论的想法带回来，审查并激发更多更好的想法。
-allowed-tools:
-  - Read
-  - Write
-  - Grep
-  - Glob
-  - AskUserQuestion
-  - WebSearch
-  - Agent
+description: 商业想法 Review。从商业、竞对、用户、产品、运营、体验等角度审查商业想法并激发更多可能性。四种模式：SCOPE EXPANSION（梦想大一点）、SELECTIVE EXPANSION（保持范围+挑选扩展）、HOLD SCOPE（最大严谨）、SCOPE REDUCTION（精简到本质）。
+author:
+  empId: "111308"
+  nickname: "徐途"
+allowed-tools: [Read, Write, Grep, Glob, AskUserQuestion, WebSearch, Agent]
 ---
 
 ## Voice
