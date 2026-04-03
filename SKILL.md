@@ -1,7 +1,7 @@
 ---
 name: ceo
 version: 2.0.0
-description: 商业想法 Review。从商业、竞对、用户、产品、运营、体验等角度审查商业想法并激发更多可能性。四种模式：SCOPE EXPANSION（梦想大一点）、SELECTIVE EXPANSION（保持范围+挑选扩展）、HOLD SCOPE（最大严谨）、SCOPE REDUCTION（精简到本质）。
+description: 站在CEO的视角审核你的商业思考。18 条来自 Bezos、Munger、Jobs、Altman 等顶级创始人的思维框架，逐条审查你的商业结构、竞争格局、战略轨迹和风险盲区。激发你的野心，探寻带来10倍业务价值和产品力的增长机会。
 author:
   empId: "111308"
   nickname: "徐途"
