@@ -30,18 +30,18 @@
 
 ```bash
 # 列出可用 skill
-npx ali-skills add qihang.xqh/ceo-review --list
+npx ali-skills add qihang.xqh/ceo --list
 
 # 安装到当前项目（自动检测已安装的 AI Agent）
-npx ali-skills add qihang.xqh/ceo-review
+npx ali-skills add qihang.xqh/ceo
 
 # 安装到指定 Agent
-npx ali-skills add qihang.xqh/ceo-review --skill ceo -a qoder
-npx ali-skills add qihang.xqh/ceo-review --skill ceo -a claude-code
-npx ali-skills add qihang.xqh/ceo-review --skill ceo -a cursor
+npx ali-skills add qihang.xqh/ceo --skill ceo -a qoder
+npx ali-skills add qihang.xqh/ceo --skill ceo -a claude-code
+npx ali-skills add qihang.xqh/ceo --skill ceo -a cursor
 
 # 全局安装（所有项目通用）
-npx ali-skills add qihang.xqh/ceo-review --skill ceo -g
+npx ali-skills add qihang.xqh/ceo --skill ceo -g
 ```
 
 ### IDE Skill（手动）

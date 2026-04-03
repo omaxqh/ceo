@@ -177,15 +177,15 @@ Required Outputs（强制输出）
 
 ```bash
 # 安装到当前项目
-npx ali-skills add qihang.xqh/ceo-review
+npx ali-skills add qihang.xqh/ceo
 
 # 安装到指定 Agent
-npx ali-skills add qihang.xqh/ceo-review --skill ceo -a qoder
-npx ali-skills add qihang.xqh/ceo-review --skill ceo -a claude-code
-npx ali-skills add qihang.xqh/ceo-review --skill ceo -a cursor
+npx ali-skills add qihang.xqh/ceo --skill ceo -a qoder
+npx ali-skills add qihang.xqh/ceo --skill ceo -a claude-code
+npx ali-skills add qihang.xqh/ceo --skill ceo -a cursor
 
 # 全局安装
-npx ali-skills add qihang.xqh/ceo-review --skill ceo -g
+npx ali-skills add qihang.xqh/ceo --skill ceo -g
 ```
 
 ### IDE Skill（手动）
