@@ -40,9 +40,9 @@
 
 ### 为什么不能用这个 Skill 发散？
 
-本 skill 为了极致压缩 token 消耗，只做聚焦审查，不做发散。你需要带着完整的方案来让 CEO 审核。
+本 skill 为了极致压缩 token 消耗和jign'jian只做聚焦审查，不做发散。你需要带着完整的方案来让 CEO 审核。
 
-> 你会在跟 CEO 开会的时候，递上一句话想法然后说"帮我拓展一下"吗？CEO 的时间是用来拍板的，不是用来帮你头脑风暴的。带着你的方案来。
+> 你会在跟 CEO 开会的时候，递上一句话想法然后说"帮我拓展一下"吗？CEO 的时间是用来拍板的，不是用来帮你头脑风暴的。带着你的方案再来。
 
 ---
 
@@ -241,16 +241,6 @@ npx ali-skills add qihang.xqh/ceo --skill ceo -g
 **选择建议：**
 - 严肃的商业计划审查 → `SKILL.md`
 - 快速获取 CEO 思维辅助 → `how-great-ceos-think.md`
-
----
-
-## 使用方式
-
-```bash
-/ceo
-```
-
-报告落盘位置：`./reviews/<project-slug>/report.md`
 
 ---
 
