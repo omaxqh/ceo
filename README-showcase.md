@@ -1,6 +1,7 @@
-# CEO Skill
+# How Great CEOs Think
 
-商业智能外脑。从创始人视角审视你的想法，发现风险、激发可能、推动决策。
+站在CEO的视角审核你的商业思考。
+涵盖Jeff Bezos、Charlie Munger、Steve Jobs、Sam Altman等多位伟大CEO的18条思维模式，从多角度审查你的商业观点。激发更多可能性，探寻带来10X倍效能和产品力的增长机会。发现风险、激发可能、推动决策。
 
 ---
 
@@ -9,7 +10,7 @@
 **核心价值：** 让你的商业想法在 ship 之前经历一次严苛的 CEO 级审查——商业结构、竞争格局、用户洞察、战略轨迹、体验设计，全覆盖。
 
 **解决什么问题：**
-- 创始人/PM 独自思考时的盲点和自我确认偏误
+- 创始人/决策者/PM 独自思考时的盲点和自我确认偏误
 - 商业计划缺乏结构化质疑和压力测试
 - 在 scope 膨胀和过度精简之间找不到平衡
 
@@ -17,7 +18,7 @@
 
 | 场景 | 你会得到什么 |
 |------|-------------|
-| 新创业方向验证 | 前提质疑、方案对比、竞对分析、3 个月理想状态映射 |
+| 创新方向验证 | 前提质疑、方案对比、竞对分析、3 个月理想状态映射 |
 | 现有产品新功能规划 | scope 边界厘定、扩展机会筛选、风险登记表 |
 | PRD/提案审核 | 逻辑漏洞检测、边缘案例覆盖、跨模型第二意见 |
 
@@ -176,22 +177,22 @@ Required Outputs（强制输出）
 
 ```bash
 # 安装到当前项目
-npx ali-skills add <group>/ceo-skill
+npx ali-skills add qihang.xqh/ceo-review
 
 # 安装到指定 Agent
-npx ali-skills add <group>/ceo-skill --skill ceo -a qoder
-npx ali-skills add <group>/ceo-skill --skill ceo -a claude-code
-npx ali-skills add <group>/ceo-skill --skill ceo -a cursor
+npx ali-skills add qihang.xqh/ceo-review --skill ceo -a qoder
+npx ali-skills add qihang.xqh/ceo-review --skill ceo -a claude-code
+npx ali-skills add qihang.xqh/ceo-review --skill ceo -a cursor
 
 # 全局安装
-npx ali-skills add <group>/ceo-skill --skill ceo -g
+npx ali-skills add qihang.xqh/ceo-review --skill ceo -g
 ```
 
 ### IDE Skill（手动）
 
 | 平台 | 安装方式 |
 |------|----------|
-| Qoder | 复制目录到 `~/.qoder/skills/ceo/` |
+| Qoder | 复制目录到 skills 目录 |
 | Cursor | 复制目录到 `.cursor/skills/ceo/` |
 | Codex | 整个目录放入 skills 目录 |
 | Claude Code | 贴到 `CLAUDE.md` 或 `.claude/commands/` |
@@ -227,7 +228,7 @@ npx ali-skills add <group>/ceo-skill --skill ceo -g
 /ceo
 ```
 
-报告落盘位置：`~/.qoder/skills/ceo/reviews/<project-slug>/report.md`
+报告落盘位置：`./reviews/<project-slug>/report.md`
 
 ---
 

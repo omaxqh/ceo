@@ -1,4 +1,4 @@
-# ceo
+# How Great CEOs Think
 
 > 商业智能外脑。审查你的想法，激发更大可能。
 
@@ -30,25 +30,25 @@
 
 ```bash
 # 列出可用 skill
-npx ali-skills add <group>/ceo-skill --list
+npx ali-skills add qihang.xqh/ceo-review --list
 
 # 安装到当前项目（自动检测已安装的 AI Agent）
-npx ali-skills add <group>/ceo-skill
+npx ali-skills add qihang.xqh/ceo-review
 
 # 安装到指定 Agent
-npx ali-skills add <group>/ceo-skill --skill ceo -a qoder
-npx ali-skills add <group>/ceo-skill --skill ceo -a claude-code
-npx ali-skills add <group>/ceo-skill --skill ceo -a cursor
+npx ali-skills add qihang.xqh/ceo-review --skill ceo -a qoder
+npx ali-skills add qihang.xqh/ceo-review --skill ceo -a claude-code
+npx ali-skills add qihang.xqh/ceo-review --skill ceo -a cursor
 
 # 全局安装（所有项目通用）
-npx ali-skills add <group>/ceo-skill --skill ceo -g
+npx ali-skills add qihang.xqh/ceo-review --skill ceo -g
 ```
 
 ### IDE Skill（手动）
 
 | 平台 | 安装方式 | 只需 SKILL.md？ |
 |------|----------|----------------|
-| Qoder | 复制目录到 `~/.qoder/skills/ceo/` | 是 |
+| Qoder | 复制目录到 skills 目录 | 是 |
 | Cursor | 复制目录到 `.cursor/skills/ceo/` | 是 |
 | Codex | 整个目录原样放入 skills 目录 | 是 |
 | Claude Code | 手动贴到 `CLAUDE.md` 或 `.claude/commands/`，或让 CC 帮你转格式 | 基本是 |
@@ -69,7 +69,7 @@ npx ali-skills add <group>/ceo-skill --skill ceo -g
 /ceo
 ```
 
-报告落盘位置：`skills/ceo/reviews/<project-slug>/report.md`
+报告落盘位置：`./reviews/<project-slug>/report.md`
 
 ## 最佳实践
 
